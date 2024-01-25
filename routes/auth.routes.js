@@ -3,8 +3,15 @@ const { createUser } = require("../controller/auth.controller");
 
 const authRoutes = [
 	{
+		method: "GET",
+		path: "/",
+		handler: (reques, h) => {
+			return "Api ready";
+		},
+	},
+	{
 		method: "POST",
-		path: "/signup",
+		path: "/users",
 		handler: createUser,
 		options: {
 			validate: {
