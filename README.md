@@ -1,4 +1,4 @@
-# Hapi.js-REST-API-MySQL
+# Hapi.js REST API MySQL
 
 REST API using [hapi.js](https://hapi.dev/) and [MySQL](https://www.mysql.com/)
 
