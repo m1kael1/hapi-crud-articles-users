@@ -41,7 +41,7 @@ Buka [http://localhost:8000/](http://localhost:3000/api/v1), akan muncul '**API 
 #### Create Users
 
 ```http
-  POST /users
+POST /users
 ```
 
 | Payload    | Type     |
@@ -53,13 +53,13 @@ Buka [http://localhost:8000/](http://localhost:3000/api/v1), akan muncul '**API 
 #### Get All Users
 
 ```http
-  GET /users
+GET /users
 ```
 
 #### Get User
 
 ```http
-  GET /users/{uid}
+GET /users/{uid}
 ```
 
 | Parameter | Type  |
@@ -69,7 +69,7 @@ Buka [http://localhost:8000/](http://localhost:3000/api/v1), akan muncul '**API 
 #### Delete Users
 
 ```http
-  DELETE /users/{uid}
+DELETE /users/{uid}
 ```
 
 | Parameter | Type  |
@@ -79,7 +79,7 @@ Buka [http://localhost:8000/](http://localhost:3000/api/v1), akan muncul '**API 
 #### Create Aticles
 
 ```http
-  POST /articles
+POST /articles
 ```
 
 | Payload   | Type     |
@@ -90,7 +90,7 @@ Buka [http://localhost:8000/](http://localhost:3000/api/v1), akan muncul '**API 
 #### Get All Aticles
 
 ```http
-  GET /articles
+GET /articles
 ```
 
 ### Get Article
