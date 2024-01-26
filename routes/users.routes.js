@@ -27,6 +27,13 @@ const usersRoutes = [
 		method: "DELETE",
 		path: "/users/{uid}",
 		handler: deleteUser,
+		options: {
+			validate: {
+				params: Joi.object({
+					uid: Joi.number().integer(),
+				}),
+			},
+		},
 	},
 ];
 module.exports = { usersRoutes };
