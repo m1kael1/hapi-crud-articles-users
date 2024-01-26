@@ -106,7 +106,7 @@ GET /articles/{aid}
 ### Delete articles
 
 ```http
-DELETE /article/{uid}/{aid}
+DELETE /articlews/{uid}/{aid}
 ```
 
 | Parameter | Type  |
